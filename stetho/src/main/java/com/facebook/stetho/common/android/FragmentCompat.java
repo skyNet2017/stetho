@@ -44,7 +44,7 @@ public abstract class FragmentCompat<
 
   static {
     sHasSupportFragment = ReflectionUtil.tryGetClassForName(
-        "android.support.v4.app.Fragment") != null;
+        "androidx.fragment.app") != null;
   }
 
   @Nullable
